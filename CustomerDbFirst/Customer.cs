@@ -12,7 +12,7 @@ namespace CustomerDbFirst
     using System;
     using System.Collections.Generic;
     
-    public partial class Customer
+    public partial class Customer : ICustomer
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
